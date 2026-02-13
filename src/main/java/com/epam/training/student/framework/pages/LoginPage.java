@@ -9,7 +9,7 @@ public class LoginPage {
 
     private final WebDriver driver;
 
-    // XPath locators (requisito)
+    // XPath locators
     private final By usernameInput = By.xpath("//input[@id='user-name']");
     private final By passwordInput = By.xpath("//input[@id='password']");
     private final By loginButton   = By.xpath("//input[@id='login-button']");

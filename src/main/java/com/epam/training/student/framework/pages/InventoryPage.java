@@ -8,7 +8,7 @@ public class InventoryPage {
 
     private final WebDriver driver;
 
-    // XPath locators (requisito)
+    // XPath locators
     private final By inventoryContainer = By.xpath("//div[@id='inventory_container']");
     private final By headerTitle        = By.xpath("//span[@class='title']");
 
